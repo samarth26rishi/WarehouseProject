@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Database
+backend/data/events.db
+
+# Video/media (too large for git)
+*.mp4
+*.mov
+*.avi
+perception/outputs/*.jpg
+perception/outputs/*.png
+perception/pilot_videos/
+
+# Node / frontend
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+
+# OS
+.DS_Store

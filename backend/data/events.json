@@ -1,0 +1,110 @@
+[
+  {
+    "event_id": "evt_00001",
+    "timestamp_video": "00:01:04",
+    "camera_id": "bay1_cam1",
+    "objects": ["person_1", "box_3"],
+    "behaviour": "product_dropped",
+    "confidence": 0.91,
+    "evidence": {"clip_start": "00:01:01", "clip_end": "00:01:07", "frame_snapshot": "frame_00001.jpg"}
+  },
+  {
+    "event_id": "evt_00002",
+    "timestamp_video": "00:03:22",
+    "camera_id": "bay1_cam1",
+    "objects": ["person_2", "box_5"],
+    "behaviour": "dragging",
+    "confidence": 0.84,
+    "evidence": {"clip_start": "00:03:18", "clip_end": "00:03:27", "frame_snapshot": "frame_00002.jpg"}
+  },
+  {
+    "event_id": "evt_00003",
+    "timestamp_video": "00:05:10",
+    "camera_id": "bay2_cam1",
+    "objects": ["box_7", "box_8"],
+    "behaviour": "unstable_stacking",
+    "confidence": 0.78,
+    "evidence": {"clip_start": "00:05:05", "clip_end": "00:05:15", "frame_snapshot": "frame_00003.jpg"}
+  },
+  {
+    "event_id": "evt_00004",
+    "timestamp_video": "00:07:41",
+    "camera_id": "bay1_cam2",
+    "objects": ["person_3", "box_2"],
+    "behaviour": "stepping_on_product",
+    "confidence": 0.72,
+    "evidence": {"clip_start": "00:07:38", "clip_end": "00:07:45", "frame_snapshot": "frame_00004.jpg"}
+  },
+  {
+    "event_id": "evt_00005",
+    "timestamp_video": "00:09:15",
+    "camera_id": "bay2_cam1",
+    "objects": ["person_1", "box_9"],
+    "behaviour": "dragging",
+    "confidence": 0.88,
+    "evidence": {"clip_start": "00:09:10", "clip_end": "00:09:20", "frame_snapshot": "frame_00005.jpg"}
+  },
+  {
+    "event_id": "evt_00006",
+    "timestamp_video": "00:11:02",
+    "camera_id": "bay1_cam1",
+    "objects": ["person_2", "box_12"],
+    "behaviour": "product_dropped",
+    "confidence": 0.95,
+    "evidence": {"clip_start": "00:10:58", "clip_end": "00:11:06", "frame_snapshot": "frame_00006.jpg"}
+  },
+  {
+    "event_id": "evt_00007",
+    "timestamp_video": "00:13:30",
+    "camera_id": "bay1_cam2",
+    "objects": ["box_4", "box_6"],
+    "behaviour": "unstable_stacking",
+    "confidence": 0.66,
+    "evidence": {"clip_start": "00:13:25", "clip_end": "00:13:35", "frame_snapshot": "frame_00007.jpg"}
+  },
+  {
+    "event_id": "evt_00008",
+    "timestamp_video": "00:15:18",
+    "camera_id": "bay2_cam1",
+    "objects": ["person_3", "box_10"],
+    "behaviour": "dragging",
+    "confidence": 0.81,
+    "evidence": {"clip_start": "00:15:14", "clip_end": "00:15:22", "frame_snapshot": "frame_00008.jpg"}
+  },
+  {
+    "event_id": "evt_00009",
+    "timestamp_video": "00:17:05",
+    "camera_id": "bay1_cam1",
+    "objects": ["person_1", "box_1"],
+    "behaviour": "product_dropped",
+    "confidence": 0.89,
+    "evidence": {"clip_start": "00:17:01", "clip_end": "00:17:09", "frame_snapshot": "frame_00009.jpg"}
+  },
+  {
+    "event_id": "evt_00010",
+    "timestamp_video": "00:19:44",
+    "camera_id": "bay2_cam1",
+    "objects": ["box_11", "box_13"],
+    "behaviour": "unstable_stacking",
+    "confidence": 0.73,
+    "evidence": {"clip_start": "00:19:40", "clip_end": "00:19:49", "frame_snapshot": "frame_00010.jpg"}
+  },
+  {
+    "event_id": "evt_00011",
+    "timestamp_video": "00:22:12",
+    "camera_id": "bay1_cam2",
+    "objects": ["person_2", "box_14"],
+    "behaviour": "dragging",
+    "confidence": 0.79,
+    "evidence": {"clip_start": "00:22:08", "clip_end": "00:22:17", "frame_snapshot": "frame_00011.jpg"}
+  },
+  {
+    "event_id": "evt_00012",
+    "timestamp_video": "00:24:50",
+    "camera_id": "bay1_cam1",
+    "objects": ["person_3", "box_15"],
+    "behaviour": "product_dropped",
+    "confidence": 0.93,
+    "evidence": {"clip_start": "00:24:46", "clip_end": "00:24:55", "frame_snapshot": "frame_00012.jpg"}
+  }
+]
