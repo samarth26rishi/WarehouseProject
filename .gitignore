@@ -1,24 +1,22 @@
 # Python
 __pycache__/
-*.pyc
-venv/
+*.py[cod]
+*.pyo
+
+# Environment / secrets
 .env
+*.env
 
-# Database
-backend/data/events.db
+# Virtual environments
+venv/
+.venv/
 
-# Video/media (too large for git)
-*.mp4
-*.mov
-*.avi
-perception/outputs/*.jpg
-perception/outputs/*.png
-perception/pilot_videos/
-
-# Node / frontend
-frontend/node_modules/
-frontend/.env
-frontend/dist/
+# IDE
+.vscode/
 
 # OS
 .DS_Store
+Thumbs.db
+
+# SQLite runtime database
+*.db
